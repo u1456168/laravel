@@ -27,7 +27,7 @@
             <div class="form-group">
 
 
-              <textarea name="body" rows="8" cols="40" class="form-control"></textarea>
+              <textarea name="body" rows="8" cols="40" class="form-control">{{old('body')}}</textarea>
             </div>
 
             <div class="form-group">
@@ -35,6 +35,18 @@
             </div>
 
           </form>
+          @if (count($errors))
+            <ul>
+              @foreach ($errors->all() as $error)
+                <li>
+                  {{$error}}
+                </li>
+
+
+              @endforeach
+            </ul>
+
+          @endif
         </div>
     </div>
     @endsection
