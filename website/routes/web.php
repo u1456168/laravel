@@ -31,4 +31,5 @@ Route::patch('notes/{note}' , 'NotesController@update');
 
 Auth::routes();
 
+Route::get('/dashboard', 'DashController@index'); // was /home
 Route::get('/home', 'HomeController@index');
