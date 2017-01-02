@@ -28,3 +28,7 @@ Route::patch('notes/{note}' , 'NotesController@update');
 //Route::post('cards/1/edit','CardsController@edit'); edit a specific cards
 //Route::put('cards/1','CardsController@update');
 //Route::delete('cards/1','CardsController@destroy');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');

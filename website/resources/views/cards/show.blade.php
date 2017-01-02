@@ -15,7 +15,7 @@
 
                   <li class="listitem list-group-item">{{$note->body}}
 
-                    <a href="#" class="pull-left">{{$note->user->username}}  :</a>
+                    <a href="#" class="pull-left">{{$note->user->name}}  :</a>
                           <button type="submit" class="btn pull-right">Edit</button></li></form>
 
                 @endforeach
