@@ -7688,8 +7688,8 @@ button.close {
   }
 }
 
-body {
-  color: purple;
+.listitem {
+  min-height: 55px;
 }
 
 /*# sourceMappingURL=app.css.map */
