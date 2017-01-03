@@ -29,6 +29,7 @@
 
 <!-- Login reg links end -->
   <div class="container">
+  
         @yield('content')
   </div>
 

@@ -32,4 +32,14 @@ Route::patch('notes/{note}' , 'NotesController@update');
 Auth::routes();
 
 Route::get('/dashboard', 'DashController@index'); // was /home
+
 Route::get('/home', 'HomeController@index');
+
+/*  Flash Messages - refer to later in developemnt if required.
+
+    Route::get('/dashboard',  'DashController@index' , function () {
+
+     Session::flash('status', 'Hello There');
+
+    });
+*/
