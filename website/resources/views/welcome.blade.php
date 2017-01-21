@@ -5,6 +5,7 @@
   <h1> Another commit on master after rebasing commit</h1>
   <p>
      adding this to new branch.
+     Adding this onto the newly made rebasebranch.
   </p>
 
 @endsection
