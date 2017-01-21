@@ -1,6 +1,7 @@
 @extends('layout')
 @section('content')
   <h1> The picture page goes here</h1>
+  <h3>Lorem IPSUM I DONT LIEK THIS</h3>
   <h1> The First commit on Rebasing branch</h1>
   <h1> Another commit on master after rebasing commit</h1>
   <p>
