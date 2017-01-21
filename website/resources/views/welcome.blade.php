@@ -7,5 +7,6 @@
      adding this to new branch.
      Adding this onto the newly made rebasebranch.
   </p>
+  <h1>New h1 tag on rebase</h1>
 
 @endsection
